@@ -1,0 +1,27 @@
+/* Generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightgray;
+}
+
+/* Intestazione */
+header {
+    background-color: #fff;
+    height: 100px;
+}
+
+/* Corpo */
+main {
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    /* debug */
+    height: 680px;
+}
