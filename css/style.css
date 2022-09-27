@@ -13,15 +13,124 @@ body{
 /* Intestazione */
 header {
     background-color: #fff;
-    height: 100px;
+    height: 80px;
 }
 
+#logo{
+    height: 60px;
+    margin: 10px 20px;
+   
+}
+
+#logo-text {
+    color: rgb(8, 2, 56);
+    font-size: 50px;
+    font-weight: 600;
+}
 /* Corpo */
 main {
     background-color: #fff;
     width: 70%;
     margin: auto;
     margin-top: 50px;
+    border-radius: 1%;
     /* debug */
     height: 680px;
+}
+
+/* intestazione corpo */
+.intestazione-corpo {
+    border-bottom: 2px solid lightgray;
+}
+
+/* bottoni */
+.bottone {
+    height: 30px;
+    padding: 5px 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 10%;
+}
+
+.blu {
+    margin-left: 60px;
+    background-color: rgb(17, 145, 250);
+    color: white;
+    border-color: rgb(17, 145, 250);
+}
+
+.bianco {
+    color: grey;
+    border-color: gray;
+    background-color: #fff;
+}
+
+/* sezioni */
+.menu {
+    margin: 40px 60px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.task-mostrata{
+    margin-bottom: 15px;
+}
+
+.cerchio {
+    border: solid 2px;
+    border-radius: 60%;
+    margin-right: 10px;
+}
+
+.verde {
+    border-color: limegreen;
+    color: green;
+}
+
+.rosso {
+    border-color: red;
+    color: red;
+}
+
+.hide {
+    margin-right: 5px;
+}
+
+.dentro{
+    font-size: 20px;
+}
+
+/* blocchi */
+.block{
+    display: inline-block;
+    color: #fff;
+    padding: 6px 16px;
+    
+    border-radius: 30%;
+}
+
+.editorial{
+    background-color: rgb(17, 145, 250);
+}
+
+.Q1 {
+    background-color: blueviolet;
+}
+
+.recruiting {
+    background-color: green;
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.website {
+    background-color: palevioletred;
+}
+
+.sales {
+    background-color: olive;
 }
